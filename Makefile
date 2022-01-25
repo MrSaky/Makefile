@@ -15,94 +15,31 @@ define sign
 	@tput setaf 1
 	@tput bold
 
-	@echo "$(shell tput cup 0 9).%%..%%."
-	@sleep .02
-	@echo "$(shell tput cup 1 9).%%..%%."
-	@sleep .02
-	@echo "$(shell tput cup 2 9).%%%%%%."
-	@sleep .02
-	@echo "$(shell tput cup 3 9).%%..%%."
-	@sleep .02
-	@echo "$(shell tput cup 4 9).%%..%%."
-	@sleep .02	
+	@sleep .1
+	@echo "$(shell tput cup 0 0)..%%%%...%%..%%...%%%%....%%%%....%%%%%...%%%%...%%%%%%..%%..%%."	
+	@sleep .2
 
-	@echo "$(shell tput cup 0 0)..%%%%.."
-	@sleep .02
-	@echo "$(shell tput cup 1 0).%%....."
-	@sleep .02
-	@echo "$(shell tput cup 2 0)..%%%%.."
-	@sleep .02
-	@echo "$(shell tput cup 3 0).....%%."
-	@sleep .02
-	@echo "$(shell tput cup 4 0)..%%%%.."
-	@sleep .02	
+	@echo "$(shell tput cup 0 0).....%%..%%..%%..%%..%%..%%..%%..%%..%%..%%..%%..%%......%%..%%."
+	@echo "$(shell tput cup 1 0)..%%%%...%%..%%...%%%%....%%%%....%%%%%...%%%%...%%%%%%..%%..%%."	
+	@sleep .15
 
-	@echo "$(shell tput cup 0 18)..%%%%.."
-	@sleep .02
-	@echo "$(shell tput cup 1 18).%%..%%."
-	@sleep .02
-	@echo "$(shell tput cup 2 18).%%..%%."
-	@sleep .02
-	@echo "$(shell tput cup 3 18).%%..%%."
-	@sleep .02
-	@echo "$(shell tput cup 4 18)..%%%%.."
-	@sleep .02	
+	@echo "$(shell tput cup 0 0)..%%%%...%%%%%%..%%..%%..%%......%%.%%%..%%..%%..%%%%....%%.%%%."
+	@echo "$(shell tput cup 1 0).....%%..%%..%%..%%..%%..%%..%%..%%..%%..%%..%%..%%......%%..%%."
+	@echo "$(shell tput cup 2 0)..%%%%...%%..%%...%%%%....%%%%....%%%%%...%%%%...%%%%%%..%%..%%."	
+	@sleep .2
 
-	@echo "$(shell tput cup 0 36)..%%%%.."
-	@sleep .02
-	@echo "$(shell tput cup 1 36).%%..%%."
-	@sleep .02
-	@echo "$(shell tput cup 2 36).%%.%%%."
-	@sleep .02
-	@echo "$(shell tput cup 3 36).%%..%%."
-	@sleep .02
-	@echo "$(shell tput cup 4 36)..%%%%%."
-	@sleep .02	
+	@echo "$(shell tput cup 0 0).%%......%%..%%..%%..%%..%%..%%..%%..%%..%%..%%..%%......%%%.%%."
+	@echo "$(shell tput cup 1 0)..%%%%...%%%%%%..%%..%%..%%......%%.%%%..%%..%%..%%%%....%%.%%%."
+	@echo "$(shell tput cup 2 0).....%%..%%..%%..%%..%%..%%..%%..%%..%%..%%..%%..%%......%%..%%."
+	@echo "$(shell tput cup 3 0)..%%%%...%%..%%...%%%%....%%%%....%%%%%...%%%%...%%%%%%..%%..%%."	
+	@sleep .2
 
-	@echo "$(shell tput cup 0 27)..%%%%.."
-	@sleep .02
-	@echo "$(shell tput cup 1 27).%%..%%."
-	@sleep .02
-	@echo "$(shell tput cup 2 27).%%....."
-	@sleep .02
-	@echo "$(shell tput cup 3 27).%%..%%."
-	@sleep .02
-	@echo "$(shell tput cup 4 27)..%%%%.."
-	@sleep .02	
-
-
-	@echo "$(shell tput cup 0 45).%%..%%."
-	@sleep .02
-	@echo "$(shell tput cup 1 45).%%..%%."
-	@sleep .02
-	@echo "$(shell tput cup 2 45).%%..%%."
-	@sleep .02
-	@echo "$(shell tput cup 3 45).%%..%%."
-	@sleep .02
-	@echo "$(shell tput cup 4 45)..%%%%.."
-	@sleep .02	
-
-	@echo "$(shell tput cup 0 63).%%..%%."
-	@sleep .02
-	@echo "$(shell tput cup 1 63).%%%.%%."
-	@sleep .02
-	@echo "$(shell tput cup 2 63).%%.%%%."
-	@sleep .02
-	@echo "$(shell tput cup 3 63).%%..%%."
-	@sleep .02
-	@echo "$(shell tput cup 4 63).%%..%%."
-	@sleep .02	
-
-	@echo "$(shell tput cup 0 54).%%%%%%."
-	@sleep .02
-	@echo "$(shell tput cup 1 54).%%....."
-	@sleep .02
-	@echo "$(shell tput cup 2 54).%%%%..."
-	@sleep .02
-	@echo "$(shell tput cup 3 54).%%....."
-	@sleep .02
-	@echo "$(shell tput cup 4 54).%%%%%%."
-	@sleep .02	
+	@echo "$(shell tput cup 0 0)..%%%%...%%..%%...%%%%....%%%%....%%%%...%%..%%..%%%%%%..%%..%%."
+	@echo "$(shell tput cup 1 0).%%......%%..%%..%%..%%..%%..%%..%%..%%..%%..%%..%%......%%%.%%."
+	@echo "$(shell tput cup 2 0)..%%%%...%%%%%%..%%..%%..%%......%%.%%%..%%..%%..%%%%....%%.%%%."
+	@echo "$(shell tput cup 3 0).....%%..%%..%%..%%..%%..%%..%%..%%..%%..%%..%%..%%......%%..%%."
+	@echo "$(shell tput cup 4 0)..%%%%...%%..%%...%%%%....%%%%....%%%%%...%%%%...%%%%%%..%%..%%."	
+	@sleep .1
 
 	@tput sgr0
 endef
