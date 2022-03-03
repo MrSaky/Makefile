@@ -6,7 +6,7 @@
 #    By: shocquen <shocquen@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/23 09:28:22 by shocquen          #+#    #+#              #
-#    Updated: 2022/01/17 03:24:30 by shocquen         ###   ########.fr        #
+#    Updated: 2022/03/03 16:57:34 by shocquen         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -94,7 +94,7 @@ LIBS	=	./libft/libft.a
 
 NAME		= executable_name
 RM			= rm -f
-CC			= gcc
+CC			= cc
 AR			= ar -rcs
 CFLAGS		= -Wall -Wextra -Werror
 
