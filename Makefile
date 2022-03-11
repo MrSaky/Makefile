@@ -122,4 +122,4 @@ signe:
 			$(call sign)
 			@echo
 
-.PHONY : 	all clean fclean re
+.PHONY : 	all clean fclean re signe
