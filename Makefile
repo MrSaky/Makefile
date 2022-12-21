@@ -6,7 +6,7 @@
 #    By: shocquen <shocquen@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/23 09:28:22 by shocquen          #+#    #+#              #
-#    Updated: 2022/03/03 16:57:34 by shocquen         ###   ########.fr        #
+#    Updated: 2022/12/21 15:43:48 by shocquen         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -87,6 +87,7 @@ endef
 SRCS		= file.c
 
 OBJS		= $(SRCS:.c=.o)
+DEPS		= $(addprefix obj/, $(OBJS:.o=.d))
 
 INC		= ./includes
 
@@ -122,4 +123,5 @@ signe:
 			$(call sign)
 			@echo
 
+-include $(DEPS)
 .PHONY : 	all clean fclean re signe
